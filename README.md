@@ -28,8 +28,6 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### Check out https://jsfanatik.github.io to learn more about the VueStacks initiative!
-
 ### Overview
 
 The VueStacks calendar MEVN demo utilizes an Axios HTTP client and Express server to create and delete calendar events. 
