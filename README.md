@@ -1,4 +1,4 @@
-# vuestacks-calendar-vue-firebase
+# vuestacks-calendar-MEVN-mongoose
 
 ## Project setup
 ```
