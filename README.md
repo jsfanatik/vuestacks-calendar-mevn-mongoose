@@ -1,4 +1,4 @@
-# vuestacks-calendar-vue-firebase
+# vuestacks-calendar-MEVN-mongoose
 
 ## Project setup
 ```
@@ -28,37 +28,24 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### Check out https://jsfanatik.github.io to learn more about the VueStacks initiative!
-
 ![alt text](https://raw.githubusercontent.com/jsfanatik/vuestacks-calendar-mevn-mongoose/master/src/assets/cal-screen3.jpg)
 
 ### Overview
 
-The VueStacks calendar demo utilizes general Vue.js + Firebase CRUD functions to enable creating, updating, and deleting of events in a modified Vuetify calendar component (see the following to learn more about Vuetify calendars: https://vuetifyjs.com/en/components/calendars).
+The VueStacks calendar MEVN demo utilizes an Axios HTTP client and Express server to create and delete calendar events.
 
 See full component in ```components/Calendar.vue```
 
-### Addition Dependencies
+See ```api/post.route.js``` to view Express router setup.
 
-This demo uses ```vue-textarea-autosize``` as a dependency. See the following for installation instructions: https://www.npmjs.com/package/vue-textarea-autosize
+See ```api/post.model.js``` to view Mongoose schema setup.
 
-### Setting Up Firebase
+### Setting Up Node/Express/MongoDB
 
-1. Set up a new project in Firebase with Database enabled.
-2. Implement the following Firebase SDK scripts in main.js:
+1) Navigate to the folder “vuestacks-calendar-mevn-mongoose/api” in the CLI
+2) Run npm init
+3) Run ```nodemon server``` to start the server
+4) In cloud.mongodb.com, retrieve the connection string for your MongoDB cluster
+5) Add your connection string to ```DB = ''``` in api/DB.js
 
-```
-import firebase from "firebase";
-firebase.initializeApp({
-  apiKey: "",
-  authDomain: "",
-  databaseURL: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
-});
-
-export const db = firebase.firestore();
-```
 Enjoy the demo! Submit an issue if you see anything that could be improved!
