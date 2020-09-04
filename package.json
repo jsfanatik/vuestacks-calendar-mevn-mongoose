@@ -13,7 +13,7 @@
     "firebase": "^6.5.0",
     "vue": "^2.6.10",
     "vue-axios": "^2.1.5",
-    "vue-moment": "^4.0.0",
+    "vue-moment": "^4.1.0",
     "vue-textarea-autosize": "^1.0.4",
     "vuetify": "^2.0.11",
     "vuex": "^3.0.1"
